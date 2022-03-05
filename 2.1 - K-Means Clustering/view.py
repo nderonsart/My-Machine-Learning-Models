@@ -15,7 +15,7 @@ from k_means import k_means
 
 
 
-def k_means_vue(points, k):
+def k_means_view(points, k):
     ''' 
         Function that allows to visualize the k clusters
             Params: a list of points and the number of clusters
@@ -55,6 +55,6 @@ if __name__ == '__main__':
     points = points_alea(32)
     k = 4
     
-    k_means_vue(points, k)
+    k_means_view(points, k)
 
 
